@@ -37,7 +37,7 @@ class Column extends React.Component{
     render(){
         return(
             <div className="column">
-                <h1 className="column-header">{this.props.name}</h1>
+                <h1 style={{"background-color": this.props.color}} className="column-header">{this.props.name}</h1>
                 <ul>
                     {this.state.cards.map((card, idx) => <li key={idx} className="card-li">{card}</li>)}
                 </ul>
