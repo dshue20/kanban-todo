@@ -1,0 +1,43 @@
+.board {
+    display: flex;
+}
+
+.column {
+    margin: 0 25px 0 25px;
+}
+
+.column-header {
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+    height: 20%;
+    text-align: center;
+}
+
+/* #winnie h1 {
+    background-color: #8E6E95;
+}
+
+#bob h1 {
+    background-color: #39A59C;
+}
+
+#thomas h1 {
+    background-color: #344759;
+}
+
+#george h1 {
+    background-color: #E8741E;
+} */
+h1 {
+    background-color: blue;
+}
+
+ul {
+    list-style: none;
+}
+
+.card-li {
+    border: 1px solid black;
+    padding: 14px 20px 14px 20px;
+}
